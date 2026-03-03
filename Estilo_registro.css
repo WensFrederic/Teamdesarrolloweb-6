@@ -1,0 +1,132 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family:"Arial black";
+   color: #fff;
+    background-image: url("imagenes/fondo.png.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family:"arial";
+    font-size: clamp(2rem, 6vw, 3.5rem);          
+    text-align: center;
+    margin-bottom: 1rem 0 2rem; 
+     color:#FF9800;
+     -webkit-text-stroke: 1px rgb(15, 14, 14);
+}
+
+.logo-link {
+    position: absolute;
+    top: 15px;               
+    left: 20px;              
+    z-index: 100;            
+    display: block;         
+    transition: transform 0.3s;  
+}
+
+.logo-link:hover {
+    transform: scale(1.08);   
+}
+
+.logo-img {
+    width: 200px;           
+    height: auto;            
+}
+
+form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+ 
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    background: #ffffff26;
+    border: 1px solid #ffffff2e;
+    width: 90%;
+    max-width: 450px;
+    gap: 1rem;
+   
+    /* Input de archivo */
+    input[type="file"] {
+   padding: 10px;
+    border: 1px solid #ffffff66;
+    border-radius: 20px;
+    background: #ffffff1a;
+    color: rgb(13, 13, 13);
+    cursor: pointer;
+    font-size: 1rem;
+    }
+
+
+}
+
+label {
+    color: #0b0a0a;
+    font-weight: bold;
+    font-size: clamp(1rem, 3.5vw, 1.3rem);
+   
+}
+
+input, textarea {
+   padding: 12px;
+    border: 1px solid rgb(20, 19, 19);
+    border-radius: 10px;
+    background: #fcf5f5;
+    color: #0b0b0b;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+button {
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 2rem 1.5rem;;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #FF9800;
+    color: #000B47;
+    border: none;
+    cursor: pointer;
+    max-width: 450px;
+    gap: 1rem;
+}
+
+.pie-de-pagina {
+ 
+   text-align: center;
+  width: 100%;
+   color:#FF9800;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 10rem;                   
+    width: 100%;
+    background: #000B47;
+ padding: 0.5rem 2rem;
+    border-top: 1px solid #FF9800;
+    cursor: pointer;
+}
+
+
+#listaHerramientas {
+    margin-top: 5px;
+}
