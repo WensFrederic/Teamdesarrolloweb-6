@@ -113,4 +113,34 @@ footer {
     aside {
         margin: 20px;
     }
+/* BOTONES */
+
+.btn {
+    display: inline-block;
+    padding: 12px 22px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+    .btn-primary {
+    background-color: var(--azul);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #08122b;
+}
+    .btn-accent {
+    background-color: var(--naranja);
+    color: white;
+}
+
+.btn-accent:hover {
+    background-color: #d96c18;
+}
 }
